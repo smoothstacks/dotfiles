@@ -1,0 +1,8 @@
+
+[font]
+normal = { family = "FiraCode Nerd Font" }
+
+[general]
+import = [
+	"~/.config/alacritty/themes/themes/dark_pride.toml"
+]

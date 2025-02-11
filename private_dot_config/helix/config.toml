@@ -1,0 +1,14 @@
+theme = "horizon-dark"
+
+[editor]
+mouse = false
+bufferline = "multiple"
+line-number = "relative"
+end-of-line-diagnostics = "hint"
+
+[keys.normal]
+esc = ["collapse_selection", "keep_primary_selection"]
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+other-lines = "warning"
