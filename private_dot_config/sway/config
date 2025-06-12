@@ -18,6 +18,8 @@ set $term ghostty
 # Your preferred application launcher
 set $menu wofi --allow-images --show drun
 
+set $browser zen-browser
+
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
@@ -68,6 +70,7 @@ output * scale 1.3
 #
     # Start a terminal
     bindsym $mod+Return exec $term
+    bindsym $mod+z exec $browser
 
     # Kill focused window
     bindsym $mod+Shift+q kill
