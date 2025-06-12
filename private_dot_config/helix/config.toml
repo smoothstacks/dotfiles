@@ -1,4 +1,4 @@
-theme = "horizon-dark"
+theme = "horizon-dark-custom"
 
 [editor]
 mouse = false
