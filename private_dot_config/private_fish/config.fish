@@ -1,6 +1,6 @@
 if status is-interactive
     function fish_greeting
-        neofetch
+        fastfetch
     end
 
     set -gx EDITOR helix
