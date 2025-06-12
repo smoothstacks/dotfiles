@@ -1,0 +1,66 @@
+# This is the configuration file for Ghostty.
+#
+# This template file has been automatically created at the following
+# path since Ghostty couldn't find any existing config files on your system:
+#
+#   /home/smoothstacks/.config/ghostty/config
+#
+# The template does not set any default options, since Ghostty ships
+# with sensible defaults for all options. Users should only need to set
+# options that they want to change from the default.
+#
+# Run `ghostty +show-config --default --docs` to view a list of
+# all available config options and their default values.
+#
+# Additionally, each config option is also explained in detail
+# on Ghostty's website, at https://ghostty.org/docs/config.
+
+# Config syntax crash course
+# ==========================
+# # The config file consists of simple key-value pairs,
+# # separated by equals signs.
+# font-family = Iosevka
+# window-padding-x = 2
+#
+# # Spacing around the equals sign does not matter.
+# # All of these are identical:
+# key=value
+# key= value
+# key =value
+# key = value
+#
+# # Any line beginning with a # is a comment. It's not possible to put
+# # a comment after a config option, since it would be interpreted as a
+# # part of the value. For example, this will have a value of "#123abc":
+# background = #123abc
+#
+# # Empty values are used to reset config keys to default.
+# key =
+#
+# # Some config options have unique syntaxes for their value,
+# # which is explained in the docs for that config option.
+# # Just for example:
+# resize-overlay-duration = 4s 200ms
+
+background = #0d0d1b
+foreground = #ccccce
+palette = 0=#282828
+palette = 1=#ca1444
+palette = 2=#789aba
+palette = 3=#b3879f
+palette = 4=#95569b
+palette = 5=#cb6fa1
+palette = 6=#fb6e93
+palette = 7=#cf98c1
+palette = 8=#98218e
+palette = 9=#cb515d
+palette = 10=#5a87b1
+palette = 11=#9c61ab
+palette = 12=#9a77b1
+palette = 13=#f2a297
+palette = 14=#f4436f
+palette = 15=#ebdbb2
+
+font-family = "Firacode Nerd Font"
+
+background-opacity = 0.9
