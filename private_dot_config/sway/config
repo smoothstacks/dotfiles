@@ -19,6 +19,7 @@ set $term ghostty
 set $menu wofi --allow-images --show drun
 
 set $browser zen-browser
+set $browserprivate zen-browser --private-window
 
 set $lock swaylock -f -i ~/.config/background.jpeg
 
@@ -70,6 +71,7 @@ exec swayidle -w \
     # Start a terminal
     bindsym $mod+Return exec $term
     bindsym $mod+z exec $browser
+    bindsym $mod+Shift+z exec $browserprivate
 
     # Kill focused window
     bindsym $mod+Shift+q kill
