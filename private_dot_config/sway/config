@@ -14,12 +14,12 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term ghostty
+set $term alacritty
 # Your preferred application launcher
 set $menu wofi --allow-images --show drun
 
-set $browser zen-browser
-set $browserprivate zen-browser --private-window
+set $browser firefox
+set $browserprivate firefox --private-window
 
 set $lock swaylock -f -i ~/.config/background.jpeg
 
@@ -27,7 +27,7 @@ set $lock swaylock -f -i ~/.config/background.jpeg
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 output * bg ~/.config/background.jpeg fill
-output * scale 1.3
+output * scale 1.0
 
 #
 # Example configuration:
