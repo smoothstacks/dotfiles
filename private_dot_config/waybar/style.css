@@ -155,7 +155,7 @@ window#waybar {
     box-shadow: inherit;
 }
 
-#workspaces button.focused {
+#workspaces button.focused, button.active {
     box-shadow: inset 0 -2px @workspaces-focused-fg;
     color: @workspaces-focused-fg;
     font-weight: 900;
