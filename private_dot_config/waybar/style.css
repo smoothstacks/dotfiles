@@ -105,6 +105,9 @@
 @define-color uptime-color                @lightblue;
 @define-color updates-color               @lightblue;
 @define-color quote-color                 @lightblue;
+@define-color protonvpn-color             @green;
+@define-color protonvpn-disconnected-color @lightblue;
+@define-color protonvpn-blocked-color     @crimson;
 @define-color idle-inhibitor-color        @lightblue;
 @define-color idle-inhibitor-active-color @lightblue;
 
@@ -130,6 +133,7 @@ window#waybar {
 #mode, #mpd, #custom-weather, #custom-playerctl, #clock, #cpu,
 #memory, #temperature, #battery, #network, #pulseaudio,
 #backlight, #disk, #custom-uptime, #custom-updates, #custom-quote,
+#custom-protonvpn,
 #idle_inhibitor, #tray {
     padding: 0 10px;
     margin: 0 2px;
@@ -263,6 +267,21 @@ window#waybar {
 #network.disconnected {
     color: @network-disconnected-color;
     border-bottom-color: @network-disconnected-color;
+}
+
+#custom-protonvpn.connected {
+    color: @protonvpn-color;
+    border-bottom-color: @protonvpn-color;
+}
+
+#custom-protonvpn.disconnected {
+    color: @protonvpn-disconnected-color;
+    border-bottom-color: @protonvpn-disconnected-color;
+}
+
+#custom-protonvpn.blocked {
+    color: @protonvpn-blocked-color;
+    border-bottom-color: @protonvpn-blocked-color;
 }
 
 #pulseaudio {

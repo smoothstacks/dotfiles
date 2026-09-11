@@ -17,6 +17,7 @@
     "pulseaudio",
     "backlight",
     "network",
+    "custom/protonvpn",
     "cpu",
     "memory",
     "temperature",
@@ -72,9 +73,19 @@
   },
 
   "custom/weather": {
-    "exec": "curl 'https://wttr.in/?format=1'",
+    "exec": "curl 'https://wttr.in/liverpool?format=2'",
     "interval": 3600,
     "format": "{}",
+    "tooltip": true,
+  },
+
+  "custom/protonvpn": {
+    "format": "{}",
+    "return-type": "json",
+    "interval": 5,
+    "exec": "~/.config/scripts/protonvpn-status.sh",
+    "on-click": "~/.config/scripts/protonvpn-status.sh --toggle",
+    "on-click-right": "~/.config/scripts/protonvpn-status.sh --pick",
     "tooltip": true,
   },
 
