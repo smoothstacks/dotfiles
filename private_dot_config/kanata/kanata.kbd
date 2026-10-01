@@ -26,3 +26,7 @@
 (deflayer base
   @escctrl @a @s @d @f @j @k @l @;
 )
+
+(deflayer game
+  caps a s d f j k l ;
+)
